@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.not-found-bg-container {
+  min-height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found-main-heading {
+  color: #ffffff;
+  font-family: Bree serif;
+  font-size: 55px;
+  font-weight: 600;
+}

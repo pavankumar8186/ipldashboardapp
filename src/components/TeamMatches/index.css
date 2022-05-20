@@ -1,0 +1,69 @@
+/* Write your CSS here */
+.team-match-bg-container {
+  background-color: #5755a7;
+  width: 100%;
+  max-width: 992px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+.team-match-image {
+  width: 100%;
+}
+.matches-heading {
+  color: #ffffff;
+  font-family: bree serif;
+  font-size: 18px;
+  font-weight: 400;
+  align-self: flex-start;
+}
+.latest-matches-container {
+  color: #ffffff;
+  background-color: #0f172a;
+  width: 100%;
+  min-height: 250px;
+  font-family: Bree serif;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 10px;
+  padding: 25px;
+}
+.matches-latest-top-section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.matches-latest-top-section-content {
+  min-width: 100px;
+  width: 50%;
+}
+.matches-team-logo-container {
+  min-width: 100px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.matches-team-logo {
+  min-width: 120px;
+  width: 60%;
+  max-width: 150px;
+}
+.matches-list-container {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
